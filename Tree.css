@@ -1,0 +1,165 @@
+body {
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.upperButton {
+  color: white;
+  background-color: transparent;
+  border: 0;
+  font-size: medium;
+  width: 100px;
+  font-weight: bold;
+}
+#a {
+  margin-left: 30%;
+}
+#search1 {
+  margin-left: 3%;
+  margin-right: 0; /* was '00', corrected to '0' */
+  display: inline-block; /* ensure inline layout */
+  height: 30px;
+  border-color: rgb(237, 97, 37);
+  background-color: transparent;
+}
+
+
+#select1 {
+  border: 0;
+  margin-top: 1px;
+  margin-left: -4px; /* no gap on left */
+  color: white;
+  background-color: rgb(237, 97, 37);
+  text-align: center;
+  height: 35px;
+
+  display: inline-block; /* ensures it stays inline with input */
+}
+#search1,
+#select1 {
+  vertical-align: middle;
+}
+.pageheading1 {
+  margin-left: 20%;
+  color: white;
+  font-size: 50px;
+}
+.pageheading1:first-child {
+  margin-top: 20%;
+}
+#pageheading2 {
+  margin-left: 20%;
+  color: rgb(237, 97, 37);
+  font-size: 50px;
+}
+#pagetext {
+  margin-top: 1%;
+  width: 570px;
+  margin-left: 20%;
+  color: white;
+  font-size: 100%;
+}
+#join {
+  margin-top: 4%;
+  margin-left: 20%;
+  border-radius: 8px;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  background-color: rgb(237, 97, 37);
+  border: none;
+}
+#inner {
+  display: flex;
+  justify-content: space-between;
+}
+form {
+  background-color: rgb(12, 6, 54);
+  margin-right: 100px;
+  margin-top: 60px;
+  width: 350px;
+  height: 480px;
+}
+#username {
+  margin-left: 10%;
+  margin-top: 5%;
+  border: none;
+  border-bottom: 0.5px solid rgb(234, 99, 21);
+  background-color: transparent;
+  color: rgb(234, 99, 21);
+  font-size: 20px;
+}
+#password {
+  margin-left: 10%;
+  margin-top: 5%;
+  border: none;
+  border-bottom: 0.5px solid rgb(234, 99, 21);
+  background-color: transparent;
+  color: rgb(234, 99, 21);
+  font-size: 20px;
+}
+#app {
+  margin-left: 22%;
+  margin-top: 10%;
+}
+#loginhere {
+  margin-left: 7%;
+  margin-top: 10%;
+  background-color: white;
+  color: rgb(234, 99, 21);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+}
+#login {
+  margin-left: 7%;
+  margin-top: 5%;
+  background-color: rgb(237, 97, 37);
+  font-size: 25px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+#account {
+  margin-left: 27%;
+  padding: 0;
+  color: rgb(253, 253, 253);
+  width: 300px;
+  height: 60px;
+}
+#signup {
+  margin-top: 0px;
+  margin-left: 35%;
+  color: rgb(234, 99, 21);
+  font-size: 18px;
+}
+#logapp {
+  margin-left: 37%;
+  margin-top: 5%;
+  color: rgb(253, 253, 253);
+  width: 300px;
+  height: 60px;
+}
+#here {
+  margin-top: 0px;
+  margin-left: 0%;
+  color: rgb(245, 243, 242);
+  font-size: 18px;
+}
+#app button {
+  /* width: 100px;
+  height: 100px; */
+  border-radius: 50%;
+}
+#sitename {
+  margin-left: 5%; /* spacing between text and image */
+  color: rgb(234, 99, 21);
+  font-weight: bold;
+  font-size: 50px;
+}
